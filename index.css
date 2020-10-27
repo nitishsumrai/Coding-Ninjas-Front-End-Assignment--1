@@ -1,0 +1,85 @@
+body{
+	background-color: whitesmoke;
+	float: center;
+}
+main{
+
+	height: auto;
+	width: 25em;
+	padding: 1em;
+	border-radius: 5px;
+	border: 2px red solid; 
+	background: white;
+}
+#input-container {
+	text-align: center;
+	
+}
+#input-container > span , a {
+	margin: .5em;
+}
+#input-container input{
+	padding: 1em;
+	padding-left: 3em;
+}
+	 ul {
+		list-style: none;
+	}
+	a{
+		text-decoration: none;
+	}
+	.normal-text{
+		font-size: .8em;
+		color: lightslategray;
+		font-family: sans-serif;
+	}
+	#todo-list-container {
+		display: inline-block;
+		width: 15em;
+        height: auto;
+        text-align: left;
+	}
+	#todo-input {
+		border-radius: 5px;
+		height: 2rem;
+		width: 15em;
+		padding: 1em;
+		font-size: 1.2em;
+	}
+	/* list-item */
+	.list-item{
+		display: flex;
+		justify-content: space-between;
+		width: 15em;
+		height: 4em;
+		align-content: center;
+	}
+	.list-item > * {
+		padding: 1em;
+	}
+	.todo-list-item .name-of-todo {
+		display: inline;
+    }
+    
+    .list-item:hover .remove-todo-icon{
+         display: inline;
+	}
+	.remove-todo-icon{
+		display: none;
+	}
+	.job-completed{
+		color: blue;
+	}
+	#enter-todo{
+		position: relative;
+		right: -3em;
+		padding: .5em;
+		box-sizing: border-box;
+	}
+	#enter-todo:hover{
+		background-color: lightgray;
+		
+	}
+	.change-color{
+		color: red;
+	}
